@@ -48,7 +48,7 @@ __________________________________________
 
 Images can also be inserted into the body text of a page via the rich text editor. When working in a rich text field, click the Image control. You will then be presented with the same options as for inserting images into the main carousel.
 
-In addition, Wagtail allows you to choose an alignment for you image.
+In addition, Wagtail allows you to choose an alignment for your image.
 
 .. image:: ../../_static/images/screen18_image_alignment.png
 
