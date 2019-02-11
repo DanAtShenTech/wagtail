@@ -296,7 +296,7 @@ Without a panel definition, a default form field (without label) will be used to
 Inline Panels and Model Clusters
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-The ``django-modelcluster`` module allows for streamlined relation of extra models to a Wagtail page. For instance, you can create objects related through a ``ForeignKey`` relationship on the fly and save them to a draft revision of a ``Page`` object. Normally, your related objects "cluster" would need to be created beforehand (or asynchronously) before linking them to a Page.
+The ``django-modelcluster`` module allows for streamlined relation of extra models to a Wagtail page. For instance, you can create objects related through a ``ParentalKey`` relationship on the fly and save them to a draft revision of a ``Page`` object. Normally, your related objects "cluster" would need to be created beforehand (or asynchronously) before linking them to a Page.
 
 Let's look at the example of adding related links to a :class:`~wagtail.core.models.Page`-derived model. We want to be able to add as many as we like, assign an order, and do all of this without leaving the page editing screen.
 
